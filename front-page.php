@@ -4,8 +4,8 @@
 		echo do_shortcode('[rev_slider alias="real-estate-slider1"][/rev_slider]');
 		?>
 	</section>
-	<div class="pattern">
-	</div>
+	<!--<div class="pattern">
+	</div> -->
 	<section class="featured-projects">
 		<div class="right-shape">
 			<div class="interior-shape">
