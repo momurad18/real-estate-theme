@@ -1,0 +1,16 @@
+/*
+Theme Name: Real Estate
+Author: Utechs Design Studio
+Author URI: https://utechs.net/
+Description: Real Estate
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+	font-family: 'Poppins', sans-serif;
+	color:#303e72;
+	background: url(./assets/img/body-bg.png) center !important;
+    background-size: 555px 2px !important;
+}

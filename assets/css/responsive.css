@@ -1,0 +1,129 @@
+@media (min-width: 992px){
+    .footer-contact{
+        border-right: 1px solid; 
+        border-image: linear-gradient(to bottom, #c7cdd0, #252f32 90%) 1;
+    }
+
+    
+}
+@media (max-width: 991px){
+    #header, #header-wrap {
+        height: auto!important;
+    }
+
+    #header{
+        position: relative;
+        background: #252f32;
+        border-bottom: 1px solid #c7cdd0;
+        z-index: 1040;
+    }
+    #header.full-header .container {
+        padding: 0 15px!important;
+        margin: 0 auto;
+        width: 750px!important;
+    }
+
+    .logo {
+        display: block;
+        height: 100px;
+        float: none;
+        margin: 0 auto!important;
+        max-width: none;
+        text-align: center;
+        border: 0!important;
+        padding: 0!important;
+    }
+    #primary-menu {
+        display: block;
+        float: none;
+    }
+
+    #primary-menu>ul {
+        display: none;
+        float: none!important;
+        border: 0!important;
+        padding: 0!important;
+        margin: 0!important;
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .slider{
+        margin-top: 0 !important;
+    }
+
+    .side-panel-open .mobile-menu {
+        right: 0;
+        -webkit-transition: .2s;
+        transition: .2s;
+    }
+    .footer-contact{
+        border-top: 1px solid; 
+        border-image: linear-gradient(to right, #252f32, #c7cdd0, #252f32 90%) 1;
+        margin-top: 3rem;
+    }
+    .footer-contact .footer-logo{
+        display: block;
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+@media (max-width: 767px){
+    
+}
+@media (max-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+    .side-panel-open .mobile-menu {
+        width: 100%;
+    }
+}
+
+.mobile-menu {
+    width: 300px;
+    background-color: #c7cdd0;
+    top: 0;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+    right: -300px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    z-index: 201;
+    color: #252f32;
+    line-height: normal;
+}
+
+.side-menu{
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+}
+
+.side-menu >li{
+    padding: 15px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right,#c7cdd0,#252f32, #c7cdd0 90%) 1;
+}
+.side-menu >li >a{
+    color: inherit;
+}
+
+
+.mobile-menu .contact-info{
+    direction: ltr;
+    text-align: center;
+    padding: 30px;
+}
+.mobile-menu .contact-info >a{
+    display: block;
+    color: inherit;
+}
