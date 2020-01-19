@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hrproperty/public_html/wp-content/themes/hr-property
+    - /bin/cp -R * $DEPLOYPATH
